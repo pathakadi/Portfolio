@@ -79,12 +79,13 @@ const Navbar = () => {
                   <a
                     href="https://instagram.com/_adityapathakk"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <span className="bannerIcon">
                       <FaInstagram />
                     </span>
                   </a>
-                  <a href="https://github.com/pathakadi" target="_blank">
+                  <a href="https://github.com/pathakadi" target="_blank" rel="noreferrer">
                     <span className="bannerIcon">
                       <FaGithub />
                     </span>
@@ -92,6 +93,7 @@ const Navbar = () => {
                   <a
                     href="https://www.linkedin.com/in/aditya-pathak-330703292/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <span className="bannerIcon">
                       <FaLinkedinIn />
