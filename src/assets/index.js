@@ -1,11 +1,11 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
+import logo from "./images/3.jpeg";
+import bannerImg from "./images/1.jpeg";
+import projectOne from "./images/projects/1.png";
+import projectTwo from "./images/projects/2.jpg";
+import projectThree from "./images/projects/3.png";
+import projectFour from "./images/projects/4.png";
+import projectFive from "./images/projects/5.jpg";
+import projectSix from "./images/projects/6.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -14,8 +14,8 @@ export {
   projectOne,
   projectTwo,
   projectThree,
-  testimonialOne,
-  testimonialTwo,
-  quote,
+  projectFour,
+  projectFive,
+  projectSix,
   contactImg,
 };

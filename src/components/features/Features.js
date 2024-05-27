@@ -1,7 +1,6 @@
 import React from 'react'
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiSolidity } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -14,40 +13,22 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Frontend Development"
+          des="I develop dynamic user interfaces with React.js, focusing on state management, 
+          reusable components, and API integration."
+          icon = {<FaReact/>}
          
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
+          title="Blockchain Development"
+          des="I develop smart contracts and dApps on Ethereum, ensuring secure 
+          blockchain solutions and handling token creation."
+          icon={<SiSolidity />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
-        />
-        <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
-        />
-        <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
-        />
-        <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaGlobe />}
+          title="Competitive Programming"
+          des="I solve algorithmic problems efficiently, enhance my coding skills,
+          and participate in contests to improve my problem-solving abilities."
         />
       </div>
     </section>
